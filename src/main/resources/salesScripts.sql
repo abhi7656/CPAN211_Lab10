@@ -1,12 +1,12 @@
--- Create a table named 'Sales'
-CREATE TABLE Sales (
+DROP TABLE IF EXISTS n01754524_Orders;
+
+CREATE TABLE n01754524_Orders (
     Customer VARCHAR(50),
     Product VARCHAR(50),
     Price INT
 );
 
--- Insert data into the 'Sales' table
-INSERT INTO Sales (Customer, Product, Price) VALUES
+INSERT INTO n01754524_Orders (Customer, Product, Price) VALUES
 ('Washington', 'Dress', 119),
 ('Adams', 'Shirt', 55),
 ('Adams', 'Tie', 22),
